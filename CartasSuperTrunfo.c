@@ -1,15 +1,97 @@
 #include <stdio.h>
+ 
+int main(){
+//----CARTA 1
+char estado1;
+char codigo1 [40];        //STRING
+char cidade1 [40];       //STRING
+int populacao1;
+float area1;
+float pib1;
+int pontos1;
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
+ //----carta 2
+char estado2;
+char codigo2 [40];  //STRING
+char cidade2 [40];  //STRING
+int populacao2;
+float area2;
+float pib2;
+int pontos2; 
 
-int main() {
-  // Área para definição das variáveis para armazenar as propriedades das cidades
+                //LEITURA CARTA 1
 
-  // Área para entrada de dados
+printf("======CARTA 1======\n");
 
-  // Área para exibição dos dados da cidade
+printf("ESTADO: ");
+scanf(" %c", &estado1);
 
-return 0;
-} 
+printf("CODIGO: ");
+scanf("%s", codigo1);
+
+printf("CIDADE: ");
+scanf("%s", cidade1);
+
+printf("POPULAÇÃO: ");
+scanf("%d", &populacao1);
+
+printf("ÁREA EM KM2: ");
+scanf("%f", &area1);
+
+printf("PIB: ");
+scanf("%f", &pib1);
+
+printf("PONTOS TURISTICOS: ");
+scanf("%d", &pontos1);
+
+                //LEITURA CARTA 2
+
+printf("------CARTA 2------\n");
+
+printf("ESTADO: ");
+scanf(" %c", &estado2);
+
+printf("CODIGO: ");
+scanf("%s", codigo2);
+
+printf("CIDADE: ");
+scanf("%s", cidade2);
+
+printf("POPULAÇÃO: ");
+scanf("%d", &populacao2);
+
+printf("ÁREA EM KM2: ");
+scanf("%f", &area2);
+
+printf("PIB: ");
+scanf("%f", &pib2);
+
+printf("PONTOS TURISTICOS: ");
+scanf("%d", &pontos2);
+
+                //Impressão de Cartas
+
+printf("------Cartas cadastradas------\n");
+printf("======CARTA 1======\n");
+
+printf("Estado %c\n", estado1);
+printf("CODIGO DA CARTA: %s\n", codigo1);
+printf("CIDADE: %s\n", cidade1);
+printf("POPULAÇÃO: %d\n", populacao1);
+printf("AREA EM KM2: %.2f \n", area1);
+printf("PIB: %.2f \n", pib1);
+printf("PONTOS TURÍSTICOS: %d\n", pontos1);
+
+printf("======CARTA 2======\n");
+
+printf("Estado %c\n", estado2);
+printf("CODIGO DA CARTA: %s\n", codigo2);
+printf("CIDADE: %s\n", cidade2);
+printf("POPULACAO: %d\n", populacao2);
+printf("AREA EM KM2: %.2f \n", area2);
+printf("PIB: %.2f \n", pib2);
+printf("PONTOS TURISTICOS: %d\n", pontos2);
+
+    return 0;
+}
+     
