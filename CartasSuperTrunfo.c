@@ -11,6 +11,10 @@ int populacao1, populacao2;
 float area1, area2;
 float pib1, pib2;
 int pontos1, pontos2;
+float densidade1 = populacao1 / area1;
+float densidade2 = populacao2 / area2;
+float pib_percapita1 = pib1 / populacao1;
+float pib_percapita2 = pib2 / populacao2;
 
                 //LEITURA CARTA 1
 
@@ -74,6 +78,8 @@ printf("POPULAÇÃO: %d\n", populacao1);
 printf("AREA EM KM2: %.2f \n", area1);
 printf("PIB: %.2f \n", pib1);
 printf("PONTOS TURÍSTICOS: %d\n", pontos1);
+printf("DENSIDADE: %.2f \n", densidade1);
+printf("PIB PER CAPITA: %.2f \n", pib_percapita1);
 
 printf("======CARTA 2======\n");
 
@@ -84,6 +90,8 @@ printf("POPULACAO: %d\n", populacao2);
 printf("AREA EM KM2: %.2f \n", area2);
 printf("PIB: %.2f \n", pib2);
 printf("PONTOS TURISTICOS: %d\n", pontos2);
+printf("DENSIDADE: %.2f \n", densidade2);
+printf("PIB PER CAPITA: %.2f \n", pib_percapita2);  
 
     return 0;
 }
