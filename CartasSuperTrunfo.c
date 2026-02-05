@@ -1,23 +1,16 @@
 #include <stdio.h>
  
 int main(){
-//----CARTA 1
-char estado1;
-char codigo1 [40];        //STRING
-char cidade1 [40];       //STRING
-int populacao1;
-float area1;
-float pib1;
-int pontos1;
 
- //----carta 2
-char estado2;
-char codigo2 [40];  //STRING
-char cidade2 [40];  //STRING
-int populacao2;
-float area2;
-float pib2;
-int pontos2; 
+  //------Declaração de Variaveis
+
+char estado1, estado2;
+char codigo1[40], codigo2[40];        //STRING
+char cidade1 [40], cidade2 [40];       //STRING
+int populacao1, populacao2;
+float area1, area2;
+float pib1, pib2;
+int pontos1, pontos2;
 
                 //LEITURA CARTA 1
 
