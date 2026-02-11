@@ -100,6 +100,7 @@ printf("SUPER PODER: %.2f \n", super_poder2);
 
         //COMPARAÇÃO DE CARTAS
 
+        
 printf("------RESULTADO DA BATALHA------\n");
 
 if (populacao1 > populacao2){
