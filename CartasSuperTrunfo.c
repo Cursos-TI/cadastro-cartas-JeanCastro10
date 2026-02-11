@@ -1,22 +1,14 @@
-#include <stdio.h>
- 
+#include <stdio.h> 
 int main(){
 
   //------Declaração de Variaveis
 
 char estado1, estado2;
-char codigo1[40], codigo2[40];        //STRING
-char cidade1 [40], cidade2 [40];       //STRING
+char codigo1[40], codigo2[40], cidade1[40], cidade2[40];  //STRINGS
 unsigned long int populacao1, populacao2;
-float area1, area2;
-float pib1, pib2;
+float area1, area2, pib1, pib2, densidade1, densidade2, pib_per_capita1, pib_per_capita2;
+float super_poder1, super_poder2, inverso_densidade1, inverso_densidade2;
 int pontos1, pontos2;
-float densidade1, densidade2;
-float pib_per_capita1, pib_per_capita2;
-float super_poder1, super_poder2;
-float inverso_densidade1, inverso_densidade2;
-
-
   
                 //LEITURA CARTA 1
 
@@ -92,6 +84,7 @@ printf("PONTOS TURÍSTICOS: %d\n", pontos1);
 printf("DENSIDADE: %.2f \n", densidade1);
 printf("PIB PER CAPITA: %.2f \n", pib_per_capita1);
 printf("SUPER PODER: %.2f \n", super_poder1);
+
 printf("======CARTA 2======\n");
 
 printf("Estado %c\n", estado2);
