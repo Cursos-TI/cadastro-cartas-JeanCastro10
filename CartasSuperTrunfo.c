@@ -99,22 +99,41 @@ printf("PIB PER CAPITA: %.2f \n", pib_per_capita2);
 printf("SUPER PODER: %.2f \n", super_poder2);
 
         //COMPARAÇÃO DE CARTAS
-        
+
 printf("------RESULTADO DA BATALHA------\n");
 
-printf("Populacao: Carta 1 venceu (%i)\n", (populacao1 > populacao2));
+if (populacao1 > populacao2){
+  printf("POPULAÇÃO: Carta 1 venceu\n");
+}else {
+  printf("POPULAÇÃO: Carta 2 venceu\n");
+}
+if (area1 > area2){
+  printf("ÁREA: Carta 1 venceu\n");}
+else {
+  printf("ÁREA: Carta 2 venceu\n");}
+if (pib1 > pib2){
+  printf("PIB: Carta 1 venceu\n");}
+else {
+  printf("PIB: Carta 2 venceu\n");}
+if (pontos1 > pontos2){
+  printf("PONTOS TURÍSTICOS: Carta 1 venceu\n"); }
+else {
+  printf("PONTOS TURÍSTICOS: Carta 2 venceu\n");}
+if (densidade1 < densidade2){
+  printf("DENSIDADE POPULACIONAL: Carta 1 venceu\n");}
+else {
+  printf("DENSIDADE POPULACIONAL: Carta 2 venceu\n");}  
+if (pib_per_capita1 > pib_per_capita2){
+  printf("PIB PER CAPITA: Carta 1 venceu\n");}
+else {
+  printf("PIB PER CAPITA: Carta 2 venceu\n");}  
+if (super_poder1 > super_poder2){
+  printf("SUPER PODER: Carta 1 venceu\n");
+}else {
+  printf("SUPER PODER: Carta 2 venceu\n");
+} 
 
-printf("Area: Carta 1 venceu (%i)\n", (area1 > area2));
 
-printf("PIB: Carta 1 venceu (%i)\n", (pib1 > pib2));
-
-printf("Pontos Turisticos: Carta 1 venceu (%i)\n", (pontos1 > pontos2));
-  
-printf("Densidade: Carta 1 venceu (%i)\n", (densidade1 < densidade2)); //MENOR DENSIDADE VENCE
-
-printf("PIB per Capita: Carta 1 venceu (%i)\n", (pib_per_capita1 > pib_per_capita2));
-
-printf("Super Poder: Carta 1 venceu (%i)\n", (super_poder1 > super_poder2));
 
 
 return 0;
