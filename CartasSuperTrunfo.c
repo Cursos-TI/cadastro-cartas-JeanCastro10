@@ -99,6 +99,7 @@ printf("PIB PER CAPITA: %.2f \n", pib_per_capita2);
 printf("SUPER PODER: %.2f \n", super_poder2);
 
         //COMPARAÇÃO DE CARTAS
+        
 printf("------RESULTADO DA BATALHA------\n");
 
 printf("Populacao: Carta 1 venceu (%i)\n", (populacao1 > populacao2));
